@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-repeat:no-repeat;
+    background-size: 70%;
+    background-position-x: center;
+    background-color:black;
+    height:200%;
+}
+#heart{
+    height:150px;
+    width:150px;
+    position:absolute;
+    top: 30%;
+    left: 75%;
+    animation: bounce 10s infinite;
+}
+#wand{
+    height:300px;
+    width:300px;
+    position:absolute;
+    top:70%;
+    left:15%;
+}
+#wand2{
+    height:300px;
+    width:300px;
+    position:absolute;
+    top:65%;
+    left:15%;
+}
+#mirror{
+    height:600px;
+    width:800px;
+    position:absolute;
+    left:40%;
+    top:15%;
+}
+#text1{
+    font-size:70px;
+    
+}
+#picture{
+    height:200px;
+    width:400px;
+    position:absolute;
+    top:35%;
+    left:55%;
+}
+#text2{
+    position:absolute;
+    top:45%;
+    left:60%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#text3{
+    position:absolute;
+    top:43%;
+    left:70%;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:red;
+    text-shadow: 2px 2px darkred;
+    font-size:50px;
+}
+
+@keyframes bounce{
+    0%{
+        position:absolute;
+        top: 30%;
+    }
+    50%{
+        position: absolute;
+        top:70%;
+    }
+    100%{
+        position:absolute;
+        top:30%;
+    }
+}
+@keyframes zoom{
+    0%{
+        font-size:70px;
+    }
+    50%{
+        font-size:50px;
+    }
+    100%{
+        font-size:70px;
+    }
+}
