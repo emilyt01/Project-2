@@ -67,6 +67,7 @@ body{
     color:red;
     text-shadow: 2px 2px darkred;
     font-size:50px;
+    animation: zoom 10s infinite;
 }
 
 @keyframes bounce{
@@ -85,12 +86,12 @@ body{
 }
 @keyframes zoom{
     0%{
-        font-size:70px;
-    }
-    50%{
         font-size:50px;
     }
+    50%{
+        font-size:20px;
+    }
     100%{
-        font-size:70px;
+        font-size:50px;
     }
 }
