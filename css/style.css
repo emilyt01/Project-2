@@ -4,17 +4,17 @@
 }
 body{
     background-repeat:no-repeat;
-    background-size: 70%;
+    background-size: 80%;
     background-position-x: center;
-    background-color:black;
+    background-color:lightseagreen;
     height:200%;
 }
 #heart{
     height:150px;
     width:150px;
     position:absolute;
-    top: 30%;
-    left: 75%;
+    top: 40%;
+    left: 80%;
     animation: bounce 10s infinite;
 }
 #wand{
@@ -32,27 +32,31 @@ body{
     left:15%;
 }
 #mirror{
-    height:600px;
-    width:800px;
+    height:500px;
+    width:600px;
     position:absolute;
-    left:40%;
-    top:15%;
+    left:50%;
+    top:35%;
 }
 #text1{
     font-size:70px;
-    
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:15px;
+    color:aliceblue;
 }
 #picture{
     height:200px;
     width:400px;
     position:absolute;
-    top:35%;
-    left:55%;
+    top:50%;
+    left:60%;
     opacity:0.8;
 }
 #text2{
     position:absolute;
-    top:45%;
+    top:60%;
     left:60%;
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -60,7 +64,7 @@ body{
 }
 #text3{
     position:absolute;
-    top:43%;
+    top:60%;
     left:70%;
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
@@ -70,6 +74,60 @@ body{
     font-size:50px;
     animation: zoom 5s infinite;
 }
+#gif{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:15%;
+    left:70%;
+
+}
+#gif2{
+    width:300px;
+    height:200px;
+    position:absolute;
+    border-color:crimson;
+    border-style: groove;
+    border-width:2px;
+    position:absolute;
+    top:35%;
+    left:15%;
+
+}
+#text4{
+    position:absolute;
+    top:40%;
+    left:14%;
+    letter-spacing:13px;
+    font-weight:50px;
+    size:40px;
+    color:crimson;
+    text-shadow:5px 1px black;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+#text{
+    height:300px;
+    width:300px;
+    position:absolute;
+    top:50%;
+    left:65%;
+    animation: zoomm 5s infinite;
+}
+#text5{
+    position:absolute;
+    top:30%;
+    left:70%;
+    letter-spacing:5px;
+    color:black;
+    text-shadow:5px 1px crimson;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @keyframes bounce{
     0%{
@@ -78,7 +136,7 @@ body{
     }
     50%{
         position: absolute;
-        top:70%;
+        top:80%;
     }
     100%{
         position:absolute;
@@ -94,5 +152,19 @@ body{
     }
     100%{
         font-size:50px;
+    }
+}
+@keyframes zoomm{
+    0%{
+        height: 300px;
+        width:300px;
+    }
+    50%{
+        height:200px;
+        width:200px;
+    }
+    100%{
+        height:300px;
+        width:300px;
     }
 }
