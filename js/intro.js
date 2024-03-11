@@ -7,6 +7,8 @@ $(document).ready(function(){
     $("#text").hide();
     $("#text2").show();
     $("#text5").hide();
+    $("#bar").show();
+    $("#barr").hide();
 
     $("#wand").click(function(){
         $("#wand2").show();
@@ -33,7 +35,14 @@ $(document).ready(function(){
     $("#text5").click(function(){
         $("#gif").toggle();
         $("#text5").hide();
-    })
+    });
+
+    $("#text6").click(function(){
+        $("#barr").toggle(); 
+        $("#barr").show();
+        $("#bar").hide();
+       
+    });
 
     
     });
