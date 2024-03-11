@@ -129,14 +129,14 @@ body{
   font-style: normal;
 }
 #bar{
-    height:200px;
+    height:100px;
     width:200px;
     position:absolute;
     top:80%;
     left:40%;
 }
 #barr{
-    height:200px;
+    height:100px;
     width:200px;
     position:absolute;
     top:80%;
