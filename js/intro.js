@@ -8,6 +8,7 @@ $(document).ready(function(){
     $("#text2").show();
     $("#text5").hide();
     $("#bar").show();
+    $("#text6").show();
     $("#barr").hide();
 
     $("#wand").click(function(){
