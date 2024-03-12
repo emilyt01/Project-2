@@ -48,7 +48,7 @@ body{
     color:khaki;
     position:absolute;
     left:15%;
-    top:10%;
+    top:15%;
     animation: stretch 8s infinite;
     text-shadow: 2px 1px hotpink;
 }
@@ -136,14 +136,14 @@ body{
     height:150px;
     width:250px;
     position:absolute;
-    top:85%;
+    top:80%;
     left:35%;
 }
 #barr{
     height:150px;
     width:250px;
     position:absolute;
-    top:85%;
+    top:80%;
     left:35%;
 }
 #text6{
