@@ -31,19 +31,26 @@ $(document).ready(function(){
     $("#gif").click(function(){
         $("#text5").toggle();
         $("#gif").hide();
+        $("#txt7").hide();
     });
    
     $("#text5").click(function(){
         $("#gif").toggle();
         $("#text5").hide();
+        $("#txt7").show();
     });
 
     $("#text6").click(function(){
         $("#barr").toggle(); 
         $("#barr").show();
         $("#bar").hide();
-       
     });
+
+    $("#barr").click(function(){
+        $("#bar").toggle();
+        $("#barr").hide();
+        $("#bar").show();
+    })
 
     
     });

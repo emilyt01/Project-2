@@ -10,8 +10,8 @@ body{
     height:200%;
 }
 #heart{
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
     position:absolute;
     top: 40%;
     left: 80%;
@@ -39,12 +39,18 @@ body{
     top:35%;
 }
 #text1{
-    font-size:70px;
+    font-size:35px;
+    letter-spacing:5px;
     font-family: "Slackey", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
     letter-spacing:15px;
-    color:aliceblue;
+    color:khaki;
+    position:absolute;
+    left:15%;
+    top:10%;
+    animation: stretch 8s infinite;
+    text-shadow: 2px 1px hotpink;
 }
 #picture{
     height:200px;
@@ -61,6 +67,7 @@ body{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+    color:white;
 }
 #text3{
     position:absolute;
@@ -121,33 +128,97 @@ body{
     letter-spacing:5px;
     color:black;
     text-shadow:5px 1px crimson;
-    font-family: "Homemade Apple", cursive;
-    font-weight: 400;
+    font-family: "Russo One", sans-serif;
     font-style: normal;
-    font-family: "Pacifico", cursive;
   font-weight: 400;
-  font-style: normal;
 }
 #bar{
-    height:100px;
-    width:200px;
+    height:150px;
+    width:250px;
     position:absolute;
-    top:80%;
-    left:40%;
+    top:85%;
+    left:35%;
 }
 #barr{
-    height:100px;
-    width:200px;
+    height:150px;
+    width:250px;
     position:absolute;
-    top:80%;
-    left:40%;
+    top:85%;
+    left:35%;
 }
 #text6{
-    font-size:30px;
+    font-size:25px;
     position:absolute;
     top:80%;
-    left:35%;
+    left:33%;
     color:fuchsia;
+    background: 3px  lightpink;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#txt{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt2{
+    position:absolute;
+    top: 60%;
+    left:45%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt3{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt4{
+    position:absolute;
+    top:50%;
+    left:55%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt5{
+    position:absolute;
+    top:45%;
+    left:60%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt6{
+    position:absolute;
+    top:40%;
+    left:65%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
+}
+#txt7{
+    position:absolute;
+    top:35%;
+    left:70%;
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:45px;
 }
 
 @keyframes bounce{
@@ -187,5 +258,16 @@ body{
     100%{
         height:300px;
         width:300px;
+    }
+}
+@keyframes stretch{
+    0%{
+        letter-spacing:15px;
+    }
+    50%{
+        letter-spacing:20px;
+    }
+    100%{
+        letter-spacing:15px;
     }
 }
